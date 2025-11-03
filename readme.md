@@ -1,10 +1,5 @@
 # GNSS Data Generator — Project Documentation
 
-> **Heads-up:** The uploaded ZIP includes a full `.venv/` directory and several Python files appear truncated (contain `...`). 
-> The docs below reflect the intended structure and usage based on the visible code. 
-> If something doesn’t run as-is, compare against these instructions and consider re-zipping the repo without the virtualenv 
-> and with complete source files.
-
 ## Overview
 
 This project automates fetching the latest **GNSS BRDC** navigation file(s) and uses them to generate a **GPS baseband IQ file** 
@@ -130,4 +125,3 @@ Example:
 - Consider CI tests that run `--dry-run` mode
 
 ---
-# End of README
