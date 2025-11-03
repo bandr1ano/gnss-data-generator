@@ -114,7 +114,7 @@ Example:
 ## Troubleshooting
 
 - **ImportError** → run modules with `python -m`
-- **403 from CDDIS** → use `--cookie` or env `CDDIS_COOKIE`
+- **403 from CDDIS** → follow the steps on `HOW_TO_GET_AND_SET_CDDIS_COOKIE.md`
 - **gps-sdr-sim not found** → build it and add to PATH or use `--gps-bin`
 - **Do not transmit** → Only use offline or in authorized shielded environments
 
