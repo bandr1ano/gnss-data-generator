@@ -1,0 +1,22 @@
+# requirements.txt
+#
+# Core dependencies required for GNSS Data Generator and related utilities.
+# Keep this list minimal — users can install it with:
+#     pip install -r requirements.txt
+#
+# ----------------------------------------------------------------------
+
+# HTTP requests & retries (used for file fetching)
+requests>=2.31.0
+
+# HTML parsing for extracting links from CDDIS pages
+beautifulsoup4>=4.12.0
+
+# ----------------------------------------------------------------------
+# Optional developer utilities
+# Uncomment if you want linting or testing tools.
+# flake8>=7.0.0
+# pytest>=8.0.0
+
+# ----------------------------------------------------------------------
+# End of requirements.txt

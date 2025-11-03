@@ -1,0 +1,45 @@
+# ---- Python basics ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.build/
+dist/
+build/
+
+# ---- Virtual envs ----
+.venv/
+venv/
+ENV/
+env/
+
+# ---- Editors/OS ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Project artifacts ----
+downloads/            # BRDC files you fetch locally
+*.n                   # uncompressed BRDC nav files (e.g., brdcXXXX.25n)
+*.gz                  # downloaded compressed nav files
+*.bin                 # gps-sdr-sim outputs (e.g., gps.bin)
+*.iq
+*.iq8
+*.wav
+
+# ---- Credentials / cookies / dotenv ----
+.env
+.env.*
+*.env
+*.cookie
+*.cookies
+*.netrc
+urs_cookies
+urs_cookies.txt
+
+# ---- Logs / temp ----
+*.log
+tmp/
